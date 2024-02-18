@@ -13,6 +13,11 @@ function setBgColorAlphabetById(elementId){// add alphabet bg color
     const setBg = document.getElementById(elementId)
     setBg.classList.add('bg-green-700')
 }
+//process-4
+function removeBgColorAlphabetById(elementId){// remove alphabet bg color
+    const setBg = document.getElementById(elementId)
+    setBg.classList.remove('bg-green-700')
+}
 
 
 //make Randomly generate a Alphabet functions
