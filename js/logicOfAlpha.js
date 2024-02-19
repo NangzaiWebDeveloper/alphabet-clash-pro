@@ -46,3 +46,22 @@ function continueGame(){
     //3rd-- add background Color in Button
     setBgColorAlphabetById(alphabet)
 }
+
+
+//get the score value in number by element
+function getTextElementById(elementId){
+    const element = document.getElementById(elementId)
+    const elementTextValue = element.innerText
+    const value = parseInt(elementTextValue)//convert string to number
+    return value;
+}
+function setTextElementById(elementId, value){
+    const element = document.getElementById(elementId)
+    element.innerText = value;//insert to the 'span' element
+}
+
+function getElementTextById(elementID){
+    const element = document.getElementById(elementID)
+    const text = element.innerText
+    return text;
+}
